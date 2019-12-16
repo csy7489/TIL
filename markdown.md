@@ -10,9 +10,9 @@
 
 #의 개수로 제목의 레벨을 표현할 수 있다. 1~6까지 사용할 수 있다.
 
-### ### H3
+### H3
 
-### #### H4
+#### H4
 
 ##### H5
 
@@ -45,7 +45,7 @@
 
 ## 링크
 
-[구글신](https://gogle.com)
+[구글신](https://google.com)
 
 [마크다운 활용법](https://guides.github.com/features/mastering-markdown/)
 

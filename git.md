@@ -138,7 +138,7 @@ Date:   Mon Dec 16 14:24:27 2019 +0900
 $ git remote add origin 'github url'
 ```
 
-* {github url} 부분에는 원격 저장소 url을 작성한다.
+* {github url} 부분에는 원격 저장소 url을 작성한다.(repositoty 생성 후 주소 복사)
 * 원격 저장소(remote)로 {github url}을 origin 이라는 이름으로 추가(add)하는 명령어이다.
 * 원격 저장소 목록을 보기 위해서는 아래의 명령어를 활용한다.
 
@@ -147,6 +147,14 @@ $ git remote -v
 origin  https://github.com/csy7489/TIL.git (fetch)
 origin  https://github.com/csy7489/TIL.git (push)
 ```
+
+* 저장소 삭제 명령
+
+```bash
+$ git remote rm origin
+```
+
+
 
 
 
@@ -159,3 +167,10 @@ $ git push origin master
 * 설정된 원격 저장소(origin)으로 push
 
 폴더의 내용을 수정, 삭제 및 생성 등을 하게 된다면 add, commit, push 명령어를 통해서 이력을 저장하고 push 명령어를 통해 업로드 된다.
+
+
+
+# Git 그림이해
+
+![git](image/git.gif)
+
